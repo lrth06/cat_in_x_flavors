@@ -47,6 +47,14 @@ gcc ccat.c -o ccat
 ./ccat /path/to/your/file
 ```
 
+- ### C++
+  
+```bash
+cd cpp
+g++ -o cppcat ./cppcat.cpp
+./cppcat /path/to/your/file
+```
+
 - ### Rust (in progress)
 
 ```bash
