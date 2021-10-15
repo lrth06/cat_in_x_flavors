@@ -62,3 +62,10 @@ cd rust
 cargo build
 cargo run /path/to/your/file
 ```
+
+- ### Perl
+
+```bash
+cd perl
+perl perlcat.pl /path/to/your/file
+```
