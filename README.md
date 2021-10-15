@@ -1,8 +1,6 @@
 # CAT IN X FLAVORS
 
-___
-
-The goal of this repository is to replicate the familiar "cat" command in as many languages as I can.
+The goal of this repository is to replicate the familiar "cat" command in as many languages as I can. Full, and additional functionality will be added, but currently the models simply read the file contents to a string in the console, or warn you in the event that there was no file given, or if the file you've specified cannot be opened.
 
 ## Usage
 
@@ -40,4 +38,12 @@ python3 -m pycat /path/to/your/file
 cd nodejs
 npm install -g .
 nodecat /path/to/your/file
+```
+
+- ### Rust (in progress)
+
+```bash
+cd rust
+cargo build
+cargo run /path/to/your/file
 ```
