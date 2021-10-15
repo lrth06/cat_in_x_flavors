@@ -1,6 +1,6 @@
 # CAT IN X FLAVORS
 
-The goal of this repository is to replicate the familiar "cat" command in as many languages as I can. Full, and additional functionality will be added, but currently the models simply read the file contents to a string in the console, or warn you in the event that there was no file given, or if the file you've specified cannot be opened.
+The goal of this repository is to replicate the familiar "cat" command in as many languages as I can. Full, and additional functionality will be added, but currently the models simply read the file contents to a string in the console, warn you in the event that there was no file given, or if the file you've specified cannot be opened.
 
 ## Usage
 
