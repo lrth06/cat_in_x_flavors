@@ -4,17 +4,22 @@ The goal of this repository is to replicate the familiar "cat" command in as man
 
 ## Usage
 
-### All
+### Installation Options
 
 ``` bash
 git clone https://github.com/lrth06/cat_in_x_flavors.git #HTTPS
 # OR
 git clone git@github.com:lrth06/cat_in_x_flavors.git #SSL
-
 cd cat_in_x_flavors
 ```
 
-### language
+```bash
+# OPTIONAL (recommended) - Run in docker
+docker build . -t <Your lrth06/catinx
+docker run  -it -v $(pwd):/github.com/lrth06/app lrth06/catinx
+```
+
+### languages
 
 - #### Go
   
