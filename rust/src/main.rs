@@ -10,7 +10,7 @@ fn main() {
     let mut data = String::new();
     let f = File::open(args).expect("Unable to open file");
     let mut br = BufReader::new(f);
-    br.read_to_string(&mut data).expect("Unable to read string");
+    br.read_to_string(&mut data).expect("Unable to read file");
     println!("{}", data);
 
 }
