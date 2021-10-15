@@ -15,7 +15,7 @@ cd cat_in_x_flavors
 
 ```bash
 # OPTIONAL (recommended) - Run in docker
-docker build . -t <Your lrth06/catinx
+docker build . -t lrth06/catinx
 docker run  -it -v $(pwd):/github.com/lrth06/app lrth06/catinx
 ```
 
