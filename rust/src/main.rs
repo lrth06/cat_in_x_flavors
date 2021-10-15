@@ -1,3 +1,5 @@
+#!/usr/bin/env run-cargo-script
+
 use std::fs::File;
 use std::io::{BufReader, Read};
 

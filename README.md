@@ -28,8 +28,7 @@ gocat /path/to/your/file
 
 ``` bash
 cd python
-chmod +x pycat.py
-python3 -m pycat /path/to/your/file
+python3 pycat.py /path/to/your/file
 ```
 
 - ### NodeJS
@@ -38,6 +37,14 @@ python3 -m pycat /path/to/your/file
 cd nodejs
 npm install -g .
 nodecat /path/to/your/file
+```
+
+- ### C
+  
+``` bash
+cd c
+gcc ccat.c -o ccat
+./ccat /path/to/your/file
 ```
 
 - ### Rust (in progress)
