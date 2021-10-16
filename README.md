@@ -60,7 +60,7 @@ g++ -o cppcat ./cppcat.cpp
 ./cppcat /path/to/your/file
 ```
 
-- ### Rust (in progress)
+- ### Rust 
 
 ```bash
 cd rust
@@ -74,3 +74,5 @@ cargo run /path/to/your/file
 cd perl
 perl perlcat.pl /path/to/your/file
 ```
+
+- ### Ruby (in progress)
